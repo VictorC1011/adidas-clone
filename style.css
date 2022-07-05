@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Mingzat', sans-serif;
+*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.subheader{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    background-color: black;
+    height: 30px;
+}
+
+    .subheader--content{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .subheader ul {
+        list-style-type: none;
+        overflow: hidden;
+        list-style: none;
+        font-size: 12px;
+        margin-top: -11px;
+    }
+
+    .subheader li{
+        float: left;
+    }
+
+        .subheader li:hover {
+            text-decoration: underline;
+        }
+
+        .material-symbols-outlined{
+            margin-top: -4px;
+        }
+
+    .subheader li a {
+        display: flex;
+        color: white;
+        padding: 1.5vw;
+        text-decoration: none;
+        text-align: center;
+    }
+
+
+
+.options {
+    display: inline-block;
+    width: 100%;
+}
+
+    .options--content{
+        float: right;
+    }
+
+    .options ul {
+        list-style-type: none;
+        overflow: hidden;
+        list-style: none;
+    }
+
+    .options li {
+        float: left;
+        list-style: none;
+    }
+
+    .options li a {
+        color: black;
+        padding: 6px;
+        text-decoration: none;
+    }
+
+    .options li a:hover {
+        font-weight: bold;
+    }
+
+
+
+.header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+    .header--logo img {
+        width: 48px;
+        margin-left: 2vw;
+    }
+
+    .header--content {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .header--content ul {
+        list-style-type: none;
+        overflow: hidden;
+        list-style: none;
+    }
+
+    .header--content li {
+        float: left;
+    }
+
+    .header--content li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    .header--icons {
+        margin-top: 1.6vh;
+        margin-right: 2vw;
+    }
+
+        .header--icons span {
+            padding: 5px;
+        }
+
+    .header--icons--search{
+        display: inline-block;
+        background-color: #E9ECEF;
+    }
