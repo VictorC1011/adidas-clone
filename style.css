@@ -111,11 +111,11 @@ font-family: 'Mingzat', sans-serif;
         list-style: none;
     }
 
-    .header--content li {
+    .header--content div {
         float: left;
     }
 
-    .header--content li a {
+    .header--content div a {
         display: block;
         color: black;
         text-align: center;
@@ -135,4 +135,28 @@ font-family: 'Mingzat', sans-serif;
     .header--icons--search{
         display: inline-block;
         background-color: #E9ECEF;
+    }
+
+    .content-mulher {
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .btn-mulher:hover + .content-mulher {
+        display: block;
+        position: absolute;
+        margin-top: 5vh;
+        margin-left: -7vh;
+    }
+
+    .content-mulher table {
+        font-size: 14px;
+
+        background-color: white;
+    }
+
+    .content-mulher table td, th {
+        text-align: left;
+        padding: 7px;
     }
